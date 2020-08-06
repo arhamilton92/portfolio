@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "917beb1929fad5bc2d1d70bfbbae57d7",
+    "revision": "dfb78371e523e30dcaf5e21fdc34ebb3",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "a622e85a00fe5934fd97",
-    "url": "/portfolio/static/css/main.d445285f.chunk.css"
+    "revision": "7bc5870e339fd5207f03",
+    "url": "/portfolio/static/css/main.a21daf44.chunk.css"
   },
   {
     "revision": "1d1576e9e95aa58c5c8c",
@@ -16,11 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.a47c2817.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a622e85a00fe5934fd97",
-    "url": "/portfolio/static/js/main.9df17a73.chunk.js"
+    "revision": "7bc5870e339fd5207f03",
+    "url": "/portfolio/static/js/main.e39d3814.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
+  },
+  {
+    "revision": "ff5259a99051881adc81f73f31ad7e3a",
+    "url": "/portfolio/static/media/spellbindr.ff5259a9.png"
   }
 ]);
