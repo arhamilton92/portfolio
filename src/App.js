@@ -29,8 +29,16 @@ function App() {
         </div>
       </div>
         <div className="row"> 
-          <div className="col-2 card m-3">
-            hello
+          <div className="col-2 card m-3" id="spellbindr">
+            <div className="row">
+              <div className="col cardheader m-2 parent">
+                <h5>spellbindr</h5>
+              </div>
+            </div>
+            <div className="row"> 
+              <div className="col m-5">
+              </div>
+            </div>
           </div>
           <div className="col-2 card m-3">
             hello
@@ -46,26 +54,29 @@ function App() {
     <div className="container-fluid dark">
       <div className="row mt-5">
         <div className="col-6 mt-5">
-          <h1 className="centered intro">Want to talk?</h1>
-          <p id="lets-talk"> 
+          <h1 className="centered contact-text">Want to talk?</h1>
+          <p className="lets-talk"> 
             Let's work together.
           </p>
+          <hr></hr>
+          <h5 className="contact-info">andrea.r.hamilton92@gmail.com</h5>
+          <h5 className="contact-info">678-763-9217</h5>
         </div>
         <div className="col-6 w-100 mt-5 mb-5">
         <div class="contact-form">
               <section class="form-group" >
                   <div class="col-sm-10">          
-                    <input type="text" class="form-control" placeholder="lol this doesn't do anything" />
+                    <input type="text" class="form-control contact-form" placeholder="First & Last Name" />
                   </div>
               </section>
               <section class="form-group">
                   <div class="col-sm-10">
-                    <input type="email" class="form-control" placeholder="But you can type in it. Neat" />
+                    <input type="email" class="form-control contact-form" placeholder="Email" />
                   </div>
                 </section>
               <section class="form-group">
                   <div class="col-sm-10">
-                    <textarea class="form-control" rows="4" placeholder="it's stretchy!! hit submit" ></textarea>
+                    <textarea class="form-control contact-form" rows="4" placeholder="Tell me about your project!" ></textarea>
                   </div>
                 </section>
           </div>

@@ -22,6 +22,10 @@ h3 {
     font-size: 35px;
 }
 
+h5 {
+    text-align:center;
+}
+
 #about {
     margin-right: 200px;
     margin-left: 200px;
@@ -31,10 +35,8 @@ h3 {
     text-align: center
 }
 
-#lets-talk {
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 100px;
+.lets-talk {
+    margin-top: 20px;
     font-size: 20px;
     color: rgb(100, 103, 138);
     text-align: center
@@ -93,6 +95,29 @@ h3 {
     background: linear-gradient(90deg, rgba(200,208,245) 41%, rgba(255,208,216,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.contact-text {
+    color: rgba(200,208,245);
+}
+
+.contact-info {
+    font-weight: bold;
+    color: rgb(100, 103, 138);
+}
+
+.cardheader {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+.form-control{
+    background-color: rgb(196, 214, 233);
+    border: none;
+    color: rgb(100, 103, 138);
+}
+
+#spellbindr {
+    background: url("./images/spellbindr.png") top center no-repeat;
 }
 
 .navbar-dark {
