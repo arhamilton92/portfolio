@@ -17,23 +17,49 @@ h1 {
 }
 
 h3 {
-    color: rgb(103, 114, 163); 
+    color: rgb(124, 142, 194); 
     font-weight: 800;
     font-size: 35px;
 }
 
+#about {
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgb(100, 103, 138);
+    text-align: center
+}
+
+#contact-me {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(200,208,245, 0.5)
+}
 .parent {
     display: grid;
     place-items: center;
+    overflow: hidden;
 }
 
 .centered {
     text-align: center;
 }
 
+.card {
+    min-width: 200px;
+    min-height: 250px;
+    text-align: center;
+}
+
+.introrow {
+    margin: 50px;
+}
+
 .intro {
     font-size: 1.2em;
-    background: linear-gradient(90deg, rgba(200,208,245,1) 41%, rgba(255,208,216,1) 100%);
+    background: linear-gradient(90deg, rgba(200,208,245) 41%, rgba(255,208,216,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -44,7 +70,7 @@ h3 {
 
 .navbar-light {
     background: rgb(200,208,245);
-    background: linear-gradient(90deg, rgba(200,208,245,1) 41%, rgba(255,208,216,1) 100%);
+    background: linear-gradient(90deg, rgba(200,208,245) 41%, rgba(255,208,216,1) 100%);
     cursor: pointer;
 }
 
