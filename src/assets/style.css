@@ -51,7 +51,18 @@ h3 {
     min-width: 200px;
     min-height: 250px;
     text-align: center;
+    border-radius: 10px;
 }
+
+.dark {
+    background-color: rgb(30, 30, 34);
+}
+
+/* .portfolio {
+    background: rgb(200,208,245);
+    background: linear-gradient(90deg, rgba(200,208,245) 41%, rgba(255,208,216,1) 100%);
+    height: 100vh;
+} */
 
 .introrow {
     margin: 50px;
