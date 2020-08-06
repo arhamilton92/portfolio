@@ -31,6 +31,16 @@ h3 {
     text-align: center
 }
 
+#lets-talk {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 20px;
+    color: rgb(100, 103, 138);
+    text-align: center
+}
+
+
 #contact-me {
     text-align: center;
     font-weight: 600;
@@ -48,7 +58,7 @@ h3 {
 }
 
 .card {
-    min-width: 200px;
+    min-width: 250px;
     min-height: 250px;
     text-align: center;
     border-radius: 10px;
@@ -65,9 +75,19 @@ h3 {
 } */
 
 .introrow {
-    margin: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
+.fixed-bottom {
+    background: rgb(200,208,245);
+    background: linear-gradient(90deg, rgba(200,208,245) 41%, rgba(255,208,216,1) 100%);
+    margin:none;
+}
+
+.footer-border {
+    background-color: rgb(30, 30, 34);
+}
 .intro {
     font-size: 1.2em;
     background: linear-gradient(90deg, rgba(200,208,245) 41%, rgba(255,208,216,1) 100%);
