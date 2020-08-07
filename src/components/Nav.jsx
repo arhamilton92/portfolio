@@ -7,7 +7,7 @@ function Nav() {
       <div>
     <nav className="navbar navbar-dark">
     </nav>
-  <nav className="collapse navbar-dark pt-3 pb-3" id="navbarToggleExternalContent">
+  <nav className="collapse navbar-dark pb-3" id="navbarToggleExternalContent">
       <div className="d-flex justify-content-center">
           <a className="nav-item nav-link" ><h5>About Me</h5></a>
           <a className="nav-item nav-link" ><h5>Portfolio</h5></a>

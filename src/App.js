@@ -53,7 +53,7 @@ function App() {
         </div>
     </div>
     <div className="container-fluid dark">
-      <div className="row mt-5 mb-5 introrow">
+      <div className="row mt-5">
         <div className="col-6 mt-5">
           <div className="contact">
             <h1 className="centered contact-text">Want to talk?</h1>
