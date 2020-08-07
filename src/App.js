@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "./components/Nav";
+import Footer from "./components/Footer"
 import "./assets/style.css";
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <div className="row parent introrow">
         <div className="col-12 w-100 m-5">
           <h1 className="centered intro">Let's create something.</h1>
-          <p id="about"> My name's Andrea. 
+          <p id="about"> Hi! My name's Andrea. 
           <br></br> 
           I'm a web designer, currently seeking creative challenges to test my skills.
           <br></br>
@@ -29,40 +30,42 @@ function App() {
         </div>
       </div>
         <div className="row"> 
-          <div className="col-2 card m-3" id="spellbindr">
-            <div className="row">
-              <div className="col cardheader m-2 parent">
+          <div className="col-lg-2 col-sm-12 col-md-4 card p-3" id="spellbindr">
+            <div className="row parent">
+              <div className="col cardheader p-2 parent">
                 <h5>spellbindr</h5>
               </div>
             </div>
             <div className="row"> 
-              <div className="col m-5">
+              <div className="col p-5">
               </div>
             </div>
           </div>
-          <div className="col-2 card m-3">
+          <div className="col-lg-2 col-sm-12 col-md-4 card p-3">
             hello
           </div>
-          <div className="col-2 card m-3">
+          <div className="col-lg-2 col-sm-12 col-md-4 card p-3">
             hello
           </div>
-          <div className="col-2 card m-3">
+          <div className="col-lg-2 col-sm-12 col-md-4 card p-3">
             hello
           </div>
         </div>
     </div>
     <div className="container-fluid dark">
-      <div className="row mt-5">
+      <div className="row mt-5 mb-5 introrow">
         <div className="col-6 mt-5">
-          <h1 className="centered contact-text">Want to talk?</h1>
-          <p className="lets-talk"> 
-            Let's work together.
-          </p>
-          <hr></hr>
-          <h5 className="contact-info">andrea.r.hamilton92@gmail.com</h5>
-          <h5 className="contact-info">678-763-9217</h5>
+          <div className="contact">
+            <h1 className="centered contact-text">Want to talk?</h1>
+            <p className="lets-talk"> 
+              Let's work together.
+            </p>
+            <hr></hr>
+            <h5 className="contact-info">andrea.r.hamilton92@gmail.com</h5>
+            <h5 className="contact-info">678-763-9217</h5>
+          </div>
         </div>
-        <div className="col-6 w-100 mt-5 mb-5">
+        <div className="col-6 w-100 p-5">
         <div class="contact-form">
               <section class="form-group" >
                   <div class="col-sm-10">          
@@ -83,15 +86,7 @@ function App() {
         </div>
       </div>
     </div>
-    <nav className="navbar navbar-dark">
-    </nav>
-      <div className="container-fluid text-center text-md-left p-4">
-        <div className="row">
-          <section className="col align-self-center">
-              <a className="text-center" href="https://github.com/arhamilton92/responsive-portfolio"><h3>GITHUB</h3></a>
-          </section>
-        </div>
-      </div>
+    <Footer />
   </div>
   );
 }

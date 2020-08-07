@@ -60,10 +60,11 @@ h5 {
 }
 
 .card {
-    min-width: 250px;
+    min-width: 300px;
     min-height: 250px;
     text-align: center;
     border-radius: 10px;
+    float: center;
 }
 
 .dark {
@@ -90,12 +91,14 @@ h5 {
 .footer-border {
     background-color: rgb(30, 30, 34);
 }
+
 .intro {
     font-size: 1.2em;
     background: linear-gradient(90deg, rgba(200,208,245) 41%, rgba(255,208,216,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 .contact-text {
     color: rgba(200,208,245);
@@ -110,10 +113,13 @@ h5 {
     background: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
 }
+
 .form-control{
     background-color: rgb(196, 214, 233);
     border: none;
     color: rgb(100, 103, 138);
+    max-width: 400px;
+
 }
 
 #spellbindr {
