@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.79dfe664.chunk.css",
-    "main.js": "/portfolio/static/js/main.afbf480f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.afbf480f.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.a47c2817.chunk.js": "/portfolio/static/js/2.a47c2817.chunk.js",
-    "static/js/2.a47c2817.chunk.js.map": "/portfolio/static/js/2.a47c2817.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.a330a5add19455b5e2fc8cf39da83308.js": "/portfolio/precache-manifest.a330a5add19455b5e2fc8cf39da83308.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.79dfe664.chunk.css.map": "/portfolio/static/css/main.79dfe664.chunk.css.map",
-    "static/js/2.a47c2817.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a47c2817.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/portfolio/static/media/spellbindr.ff5259a9.png"
+    "main.css": "/arhamilton.me/static/css/main.416f1d00.chunk.css",
+    "main.js": "/arhamilton.me/static/js/main.15095dd8.chunk.js",
+    "main.js.map": "/arhamilton.me/static/js/main.15095dd8.chunk.js.map",
+    "runtime-main.js": "/arhamilton.me/static/js/runtime-main.d84ad259.js",
+    "runtime-main.js.map": "/arhamilton.me/static/js/runtime-main.d84ad259.js.map",
+    "static/js/2.d3d63a17.chunk.js": "/arhamilton.me/static/js/2.d3d63a17.chunk.js",
+    "static/js/2.d3d63a17.chunk.js.map": "/arhamilton.me/static/js/2.d3d63a17.chunk.js.map",
+    "index.html": "/arhamilton.me/index.html",
+    "precache-manifest.44d8d4edbc509c1a1bf45a64b913888d.js": "/arhamilton.me/precache-manifest.44d8d4edbc509c1a1bf45a64b913888d.js",
+    "service-worker.js": "/arhamilton.me/service-worker.js",
+    "static/css/main.416f1d00.chunk.css.map": "/arhamilton.me/static/css/main.416f1d00.chunk.css.map",
+    "static/js/2.d3d63a17.chunk.js.LICENSE.txt": "/arhamilton.me/static/js/2.d3d63a17.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/arhamilton.me/static/media/spellbindr.ff5259a9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.a47c2817.chunk.js",
-    "static/css/main.79dfe664.chunk.css",
-    "static/js/main.afbf480f.chunk.js"
+    "static/js/runtime-main.d84ad259.js",
+    "static/js/2.d3d63a17.chunk.js",
+    "static/css/main.416f1d00.chunk.css",
+    "static/js/main.15095dd8.chunk.js"
   ]
 }
